@@ -1,6 +1,11 @@
 {
     "papers": [
         {
+            "en": "K. Sawada, R. Nakamura and K. Uehara, “Integrating Netfilter into SRv6 Routing Infrastructure of Linux as an SR-Aware Network” 2024 International Conference on Information Networking (ICOIN), Ho Chi Minh City, Vietnam, 2024, pp. 251-256",
+            "ja": "K. Sawada, R. Nakamura and K. Uehara, “Integrating Netfilter into SRv6 Routing Infrastructure of Linux as an SR-Aware Network” 2024 International Conference on Information Networking (ICOIN), Ho Chi Minh City, Vietnam, 2024, pp. 251-256",
+            "url": ""
+        },
+        {
             "en": "Yasunobu TOYOTA, Wataru MISHIMA, Koichiro KANAYA, & Osamu NAKAMURA (2023). Performance Aware Egress Path Discovery for Content Provider with SRv6 Egress Peer Engineering. IEICE Transactions on Information and Systems, E106.D(5), 927-939.",
             "ja": "Yasunobu TOYOTA, Wataru MISHIMA, Koichiro KANAYA, & Osamu NAKAMURA (2023). Performance Aware Egress Path Discovery for Content Provider with SRv6 Egress Peer Engineering. IEICE Transactions on Information and Systems, E106.D(5), 927-939.",
             "url": "https://www.jstage.jst.go.jp/article/transinf/E106.D/5/E106.D_2022NTP0003/_article/-char/en"
@@ -132,6 +137,11 @@
         }
     ],
     "presentations": [
+        {
+            "en": "Sawada, K., Nakamura, R., & Uehara, K. (2022). Massive & Passive RTT Estimation. IEICE Technical Report; IEICE Tech. Rep., 122(268), 14-19.",
+            "ja": "澤田 開杜, 中村 遼, 植原 啓介, 大規模バックボーンネットワークにおけるRTT計測手法の検討 電子情報通信学会 信学技報 122(268) 14-19 2022年11月",
+            "url": "https://ken.ieice.org/ken/paper/20221121ICOw/"
+        },
         {
             "en": "Ray Atarashi, Yasunobu Toyota, and Yoshiaki Kitaguchi. Survey of the IPv6 Internet Environment from a User Point of View. 研究報告インターネットと運用技術 (IOT), 2022(13), 1-6.",
             "ja": "新麗, 豊田安信, & 北口善明. (2022). ユーザ視点による IPv6 インターネット環境の調査. 研究報告インターネットと運用技術 (IOT), 2022(13), 1-6.",
