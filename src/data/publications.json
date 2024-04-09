@@ -138,6 +138,11 @@
     ],
     "presentations": [
         {
+            "en": "M. Yamamoto and T. Yasunobu, IPv6-only Capable Resolvers Utilising NAT64, Internet Engineering Task Force, Internet-Draft draft-momoka-v6ops-ipv6-only-resolver-02, Sep. 2023, work in Progress. ",
+            "ja": "M. Yamamoto and T. Yasunobu, IPv6-only Capable Resolvers Utilising NAT64, Internet Engineering Task Force, Internet-Draft draft-momoka-v6ops-ipv6-only-resolver-02, Sep. 2023, work in Progress. ",
+            "url": "https://datatracker.ietf.org/doc/draft-momoka-v6ops-ipv6-only-resolver/"
+        },
+        {
             "en": "Sawada, K., Nakamura, R., & Uehara, K. (2022). Massive & Passive RTT Estimation. IEICE Technical Report; IEICE Tech. Rep., 122(268), 14-19.",
             "ja": "澤田 開杜, 中村 遼, 植原 啓介, 大規模バックボーンネットワークにおけるRTT計測手法の検討 電子情報通信学会 信学技報 122(268) 14-19 2022年11月",
             "url": "https://ken.ieice.org/ken/paper/20221121ICOw/"
