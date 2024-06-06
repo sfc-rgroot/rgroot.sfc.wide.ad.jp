@@ -15,8 +15,8 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "タムリン，アフマッド，フスニ",
-			"name_en": "Achmad Thamrin",
+			"name": "タムリン，アフマッド　フスニ",
+			"name_en": "Achmad Husni Thamrin",
 			"url": "",
 			"login": "husni",
 			"affiliation": "環境情報学部",
@@ -203,8 +203,8 @@
 			"login": "sashimi",
 			"affiliation": "総合政策学部",
 			"affiliation_en": "PM",
-			"grade": "B１",
-			"grade_en": "B１"
+			"grade": "B1",
+			"grade_en": "B1"
 		},
 		{
 			"list": true,
