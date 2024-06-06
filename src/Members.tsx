@@ -61,7 +61,7 @@ const badge = (badgeStr: string) => {
         case "D2":
         case "D3":
             return "yellow"
-        case "Associate Professor":
+        case "Professor":
             return "cyan"
         default:
             return "gray"
