@@ -2,12 +2,12 @@
     "papers": [
         {
             "en": "Yasunobu Toyota, Wataru Mishima, Takeru Hayasaka, Yuta Fukagawa, Keisuke Uehara and Osamu Nakamura, “Perfomance Aware Content Delivery Using Multipath Transport Protocol with SRv6 BGP Egress Peer Engineering“, Transaction Digital Practice vol.5 No.3(July 2024)",
-            "jp": "豊田 安信、三島 航、早坂 彪流、深川 祐太、植原 啓介、中村 修, “Multipath Transport Protocolを用いたSRv6 BGP Egress Peer Engineeringによる高品質・高信頼なコンテンツ配信“, トランザクションデジタルプラクティス vol.5 No.3(July 2024)",
+            "ja": "豊田 安信、三島 航、早坂 彪流、深川 祐太、植原 啓介、中村 修, “Multipath Transport Protocolを用いたSRv6 BGP Egress Peer Engineeringによる高品質・高信頼なコンテンツ配信“, トランザクションデジタルプラクティス vol.5 No.3(July 2024)",
             "url": "https://www.ipsj.or.jp/dp/contents/publication/59/TR0503-03.html"
         },
         {
             "en": "Yoshito Kurazumi, Yoshiki Uchida, Shun Arima, Noriatsu Kudo and Keiko Okawa, “Examining Technologies to Reduce Response Time in Hands-on Exercise Environment Over Widely Distributed Computer Network Utilizing RENs“, AINTEC'24: Proceedings of the Asian Internet Engineering Conference 2024, pp. 36-45",
-            "jp": "Yoshito Kurazumi, Yoshiki Uchida, Shun Arima, Noriatsu Kudo and Keiko Okawa, “Examining Technologies to Reduce Response Time in Hands-on Exercise Environment Over Widely Distributed Computer Network Utilizing RENs“, AINTEC'24: Proceedings of the Asian Internet Engineering Conference 2024, pp. 36-45",
+            "ja": "Yoshito Kurazumi, Yoshiki Uchida, Shun Arima, Noriatsu Kudo and Keiko Okawa, “Examining Technologies to Reduce Response Time in Hands-on Exercise Environment Over Widely Distributed Computer Network Utilizing RENs“, AINTEC'24: Proceedings of the Asian Internet Engineering Conference 2024, pp. 36-45",
             "url": "https://dl.acm.org/doi/10.1145/3674213.3674218"
         },
         {
