@@ -69,13 +69,13 @@ const badge = (badgeStr: string) => {
 }
 
 export const Members = (props: { en: boolean }) => {
-    const facultiesList: JSX.Element[] = []
-    const studentsList: JSX.Element[] = []
+    const facultiesList: React.JSX.Element[] = []
+    const studentsList: React.JSX.Element[] = []
     let key = 0
     Array.prototype.forEach.call(members.faculties, (element) => {
         if (element.list) {
             facultiesList.push(
-                <Member key={key} data={element} en={props.en}></Member>
+                <Member key={key} data={element} en={props.en}></Member>,
             )
         }
         key++
@@ -83,7 +83,7 @@ export const Members = (props: { en: boolean }) => {
     Array.prototype.forEach.call(members.students, (element) => {
         if (element.list) {
             studentsList.push(
-                <Member key={key} data={element} en={props.en}></Member>
+                <Member key={key} data={element} en={props.en}></Member>,
             )
         }
         key++

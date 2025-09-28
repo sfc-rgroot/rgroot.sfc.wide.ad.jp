@@ -33,29 +33,29 @@ const createRules = () => {
     rules = rules.concat(members.students.map((e) => e.name_en))
     // AaaBbb
     rules = rules.concat(
-        members.faculties.map((e) => e.name.replace(/\s+/g, ""))
+        members.faculties.map((e) => e.name.replace(/\s+/g, "")),
     )
     rules = rules.concat(
-        members.faculties.map((e) => e.name_en.replace(/\s+/g, ""))
+        members.faculties.map((e) => e.name_en.replace(/\s+/g, "")),
     )
     rules = rules.concat(
-        members.students.map((e) => e.name.replace(/\s+/g, ""))
+        members.students.map((e) => e.name.replace(/\s+/g, "")),
     )
     rules = rules.concat(
-        members.students.map((e) => e.name_en.replace(/\s+/g, ""))
+        members.students.map((e) => e.name_en.replace(/\s+/g, "")),
     )
     // Aaa BBB
     rules = rules.concat(
         members.faculties.map((e) => {
             const splitted = e.name_en.split(" ")
             return splitted[0] + splitted[1].toUpperCase()
-        })
+        }),
     )
     rules = rules.concat(
         members.students.map((e) => {
             const splitted = e.name_en.split(" ")
             return splitted[0] + splitted[1].toUpperCase()
-        })
+        }),
     )
     return rules
 }
@@ -71,9 +71,9 @@ const linkIcon = (url: string) => {
 }
 
 export const Publications = (props: { en: boolean }) => {
-    const papersList: JSX.Element[] = []
-    const presentationsList: JSX.Element[] = []
-    const activitiesList: JSX.Element[] = []
+    const papersList: React.JSX.Element[] = []
+    const presentationsList: React.JSX.Element[] = []
+    const activitiesList: React.JSX.Element[] = []
     let key = 0
     const rules: string[] = createRules()
     Array.prototype.forEach.call(publications.papers, (element) => {
@@ -90,7 +90,7 @@ export const Publications = (props: { en: boolean }) => {
                 >
                     {props.en ? element.en : element.ja}
                 </Highlight>
-            </ListItem>
+            </ListItem>,
         )
         key++
     })
@@ -108,7 +108,7 @@ export const Publications = (props: { en: boolean }) => {
                 >
                     {props.en ? element.en : element.ja}
                 </Highlight>
-            </ListItem>
+            </ListItem>,
         )
         key++
     })
@@ -117,7 +117,7 @@ export const Publications = (props: { en: boolean }) => {
             <ListItem key={key}>
                 {linkIcon(element.url)}
                 {props.en ? element.en : element.ja}
-            </ListItem>
+            </ListItem>,
         )
         key++
     })
