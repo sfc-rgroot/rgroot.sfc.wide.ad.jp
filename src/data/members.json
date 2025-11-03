@@ -101,18 +101,6 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "内田 祥喜",
-			"name_en": "Yoshiki Uchida",
-			"url": "",
-			"login": "uchiyoshi",
-			"affiliation": "総合政策学部",
-			"affiliation_en": "PM",
-			"grade": "B4",
-			"grade_en": "B4"
-		},
-        {
-			"list": true,
-			"icon": "",
 			"name": "山口 泰平",
 			"name_en": "Taihei Yamaguchi",
 			"url": "",
@@ -133,18 +121,6 @@
 			"affiliation_en": "PM",
 			"grade": "B3",
 			"grade_en": "B3"
-		},
-		{
-			"list": true,
-			"icon": "",
-			"name": "今井 正人",
-			"name_en": "Masato Imai",
-			"url": "",
-			"login": "mii",
-			"affiliation": "環境情報学部",
-			"affiliation_en": "EI",
-			"grade": "B2",
-			"grade_en": "B2"
 		},
 		{
 			"list": true,
@@ -245,38 +221,14 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "申 チヨラ",
-			"name_en": "Cheollha Shin",
-			"url": "",
-			"login": "seol",
-			"affiliation": "環境情報学部",
-			"affiliation_en": "EI",
-			"grade": "B2",
-			"grade_en": "B2"
-		},
-		{
-			"list": true,
-			"icon": "",
 			"name": "高見澤 勇騎",
-			"name_en": "Yukitaka Takamizawa",
+			"name_en": "Yuki Takamizawa",
 			"url": "",
 			"login": "yukitaka",
 			"affiliation": "総合政策学部",
 			"affiliation_en": "PM",
-			"grade": "B2",
-			"grade_en": "B2"
-		},
-		{
-			"list": true,
-			"icon": "",
-			"name": "亀井 亮磨",
-			"name_en": "Ryoma Kamei",
-			"url": "",
-			"login": "lazy",
-			"affiliation": "環境情報学部",
-			"affiliation_en": "EI",
-			"grade": "B1",
-			"grade_en": "B1"
+			"grade": "B3",
+			"grade_en": "B3"
 		},
 		{
 			"list": true,
@@ -325,18 +277,6 @@
 			"affiliation_en": "EI",
 			"grade": "B2",
 			"grade_en": "B2"
-		},
-		{
-			"list": true,
-			"icon": "",
-			"name": "千葉 琉斗",
-			"name_en": "Ryuto Chiba",
-			"url": "",
-			"login": "chiba",
-			"affiliation": "環境情報学部",
-			"affiliation_en": "EI",
-			"grade": "B3",
-			"grade_en": "B3"
 		}
 	]
 }
