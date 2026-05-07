@@ -15,21 +15,21 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "タムリン，アフマッド フスニ",
-			"name_en": "Achmad Husni Thamrin",
+			"name": "タムリン，アフマッド，フスニ",
+			"name_en": "Achmad Thamrin",
 			"url": "",
 			"login": "husni",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
-			"grade": "特任教授",
-			"grade_en": "Project Professor"
+			"grade": "教授",
+			"grade_en": "Professor"
 		}
 	],
 	"students": [
 		{
 			"list": true,
 			"icon": "",
-			"name": "ルーク コリー",
+			"name": "ルーク， コリー Ｔ",
 			"name_en": "Korry Luke",
 			"url": "",
 			"login": "koluke",
@@ -49,18 +49,6 @@
 			"affiliation_en": "MAG",
 			"grade": "D1",
 			"grade_en": "D1"
-		},
-		{
-			"list": true,
-			"icon": "",
-			"name": "澤田 開杜",
-			"name_en": "Kaito Sawada",
-			"url": "",
-			"login": "sabaniki",
-			"affiliation": "政策・メディア研究科",
-			"affiliation_en": "MAG",
-			"grade": "M2",
-			"grade_en": "M2"
 		},
 		{
 			"list": true,
@@ -89,38 +77,14 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "梅澤 侑平",
-			"name_en": "Yuhei Umezawa",
-			"url": "",
-			"login": "umechan",
-			"affiliation": "総合政策学部",
-			"affiliation_en": "PM",
-			"grade": "B4",
-			"grade_en": "B4"
-		},
-		{
-			"list": true,
-			"icon": "",
-			"name": "山口 泰平",
-			"name_en": "Taihei Yamaguchi",
-			"url": "",
-			"login": "taihei",
-			"affiliation": "総合政策学部",
-			"affiliation_en": "PM",
-			"grade": "B4",
-			"grade_en": "B4"
-		},
-		{
-			"list": true,
-			"icon": "",
 			"name": "島田 怜奈",
 			"name_en": "Rena Shimada",
 			"url": "",
 			"login": "sashimi",
 			"affiliation": "総合政策学部",
 			"affiliation_en": "PM",
-			"grade": "B3",
-			"grade_en": "B3"
+			"grade": "B4",
+			"grade_en": "B4"
 		},
 		{
 			"list": true,
@@ -137,26 +101,14 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "大崎 敦也",
-			"name_en": "Atsuya Osaki",
-			"url": "",
-			"login": "mirai",
-			"affiliation": "環境情報学部",
-			"affiliation_en": "EI",
-			"grade": "B4",
-			"grade_en": "B4"
-		},
-		{
-			"list": true,
-			"icon": "",
 			"name": "坂手 遥",
 			"name_en": "Haruka Sakate",
 			"url": "",
 			"login": "l0gic",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
-			"grade": "B3",
-			"grade_en": "B3"
+			"grade": "B4",
+			"grade_en": "B4"
 		},
 		{
 			"list": true,
@@ -167,8 +119,8 @@
 			"login": "tofu",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
-			"grade": "B2",
-			"grade_en": "B2"
+			"grade": "B3",
+			"grade_en": "B3"
 		},
 		{
 			"list": true,
@@ -191,8 +143,8 @@
 			"login": "h11ragi",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
-			"grade": "B3",
-			"grade_en": "B3"
+			"grade": "B4",
+			"grade_en": "B4"
 		},
 		{
 			"list": true,
@@ -227,8 +179,8 @@
 			"login": "yukitaka",
 			"affiliation": "総合政策学部",
 			"affiliation_en": "PM",
-			"grade": "B3",
-			"grade_en": "B3"
+			"grade": "B4",
+			"grade_en": "B4"
 		},
 		{
 			"list": true,
@@ -239,8 +191,8 @@
 			"login": "yoshiharu",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
-			"grade": "B2",
-			"grade_en": "B2"
+			"grade": "B3",
+			"grade_en": "B3"
 		},
 		{
 			"list": true,
@@ -251,16 +203,16 @@
 			"login": "kawaemon",
 			"affiliation": "総合政策学部",
 			"affiliation_en": "PM",
-			"grade": "B2",
-			"grade_en": "B2"
+			"grade": "B3",
+			"grade_en": "B3"
 		},
 		{
 			"list": true,
 			"icon": "",
-			"name": "鮑天逸",
-			"name_en": "BAO TIAN YI",
+			"name": "山本 規宰",
+			"name_en": "Noritada Yamamoto",
 			"url": "",
-			"login": "tian",
+			"login": "moons",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
 			"grade": "B2",
@@ -269,14 +221,38 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "リムパスハム パウイット",
-			"name_en": "Pawit Limpasuthum",
+			"name": "藤川 葵葉",
+			"name_en": "Aoba Fujikawa",
 			"url": "",
-			"login": "gemlim",
+			"login": "aoleaf",
+			"affiliation": "総合政策学部",
+			"affiliation_en": "PM",
+			"grade": "B2",
+			"grade_en": "B2"
+		},
+		{
+			"list": true,
+			"icon": "",
+			"name": "山口 翔生",
+			"name_en": "Kakeru Yamaguchi",
+			"url": "",
+			"login": "kakeru",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
 			"grade": "B2",
 			"grade_en": "B2"
+		},
+		{
+			"list": true,
+			"icon": "",
+			"name": "杉山 碧海",
+			"name_en": "Ao Sugiyama",
+			"url": "",
+			"login": "batoni",
+			"affiliation": "総合政策学部",
+			"affiliation_en": "PM",
+			"grade": "B1",
+			"grade_en": "B1"
 		}
 	]
 }
