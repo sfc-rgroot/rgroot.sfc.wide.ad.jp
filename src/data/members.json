@@ -15,13 +15,13 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "タムリン，アフマッド，フスニ",
+			"name": "タムリン アフマッド フスニ",
 			"name_en": "Achmad Thamrin",
 			"url": "",
 			"login": "husni",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
-			"grade": "教授",
+			"grade": "特任教授",
 			"grade_en": "Professor"
 		}
 	],
@@ -29,7 +29,7 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "ルーク， コリー Ｔ",
+			"name": "ルーク コリー",
 			"name_en": "Korry Luke",
 			"url": "",
 			"login": "koluke",
