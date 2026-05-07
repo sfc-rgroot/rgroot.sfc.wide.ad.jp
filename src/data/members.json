@@ -229,30 +229,6 @@
 			"affiliation_en": "PM",
 			"grade": "B2",
 			"grade_en": "B2"
-		},
-		{
-			"list": true,
-			"icon": "",
-			"name": "山口 翔生",
-			"name_en": "Kakeru Yamaguchi",
-			"url": "",
-			"login": "kakeru",
-			"affiliation": "環境情報学部",
-			"affiliation_en": "EI",
-			"grade": "B2",
-			"grade_en": "B2"
-		},
-		{
-			"list": true,
-			"icon": "",
-			"name": "杉山 碧海",
-			"name_en": "Ao Sugiyama",
-			"url": "",
-			"login": "batoni",
-			"affiliation": "総合政策学部",
-			"affiliation_en": "PM",
-			"grade": "B1",
-			"grade_en": "B1"
 		}
 	]
 }
