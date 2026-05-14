@@ -15,21 +15,21 @@
 		{
 			"list": true,
 			"icon": "",
-			"name": "タムリン アフマッド フスニ",
-			"name_en": "Achmad Thamrin",
+			"name": "タムリン，アフマッド フスニ",
+			"name_en": "Achmad Husni Thamrin",
 			"url": "",
 			"login": "husni",
 			"affiliation": "環境情報学部",
 			"affiliation_en": "EI",
 			"grade": "特任教授",
-			"grade_en": "Professor"
+			"grade_en": "Project Professor"
 		}
 	],
 	"students": [
 		{
 			"list": true,
 			"icon": "",
-			"name": "ルーク コリー",
+			"name": "ルーク， コリー",
 			"name_en": "Korry Luke",
 			"url": "",
 			"login": "koluke",
