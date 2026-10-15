@@ -229,6 +229,18 @@
 			"affiliation_en": "PM",
 			"grade": "B2",
 			"grade_en": "B2"
+		},
+		{
+			"list": true,
+			"icon": "",
+			"name": "山口 翔生",
+			"name_en": "Kakeru Yamaguchi",
+			"url": "",
+			"login": "kakeru",
+			"affiliation": "環境情報学部",
+			"affiliation_en": "EI",
+			"grade": "B2",
+			"grade_en": "B2"
 		}
 	]
 }
