@@ -110,48 +110,32 @@ const AccordionItem = (props: { title: string; children: React.ReactNode }) => {
 };
 
 export const Publications = (props: { en: boolean }) => {
-    const papersList: React.JSX.Element[] = [];
-    const presentationsList: React.JSX.Element[] = [];
-    const activitiesList: React.JSX.Element[] = [];
-    let key = 0;
     const rules: string[] = createRules();
-    Array.prototype.forEach.call(publications.papers, (element) => {
-        papersList.push(
-            <li key={key}>
-                {linkIcon(element.url)}
-                <Highlight query={rules}>{props.en ? element.en : element.ja}</Highlight>
-            </li>,
-        );
-        key++;
-    });
-    Array.prototype.forEach.call(publications.presentations, (element) => {
-        presentationsList.push(
-            <li key={key}>
-                {linkIcon(element.url)}
-                <Highlight query={rules}>{props.en ? element.en : element.ja}</Highlight>
-            </li>,
-        );
-        key++;
-    });
-    Array.prototype.forEach.call(publications.activities, (element) => {
-        activitiesList.push(
-            <li key={key}>
-                {linkIcon(element.url)}
-                {props.en ? element.en : element.ja}
-            </li>,
-        );
-        key++;
-    });
     return (
         <div>
             <AccordionItem title={props.en ? "Publication(peer-reviewed)" : "論文(査読有り)"}>
-                {papersList}
+                {publications.papers.map((element, key) => (
+                    <li key={key}>
+                        {linkIcon(element.url)}
+                        <Highlight query={rules}>{props.en ? element.en : element.ja}</Highlight>
+                    </li>
+                ))}
             </AccordionItem>
             <AccordionItem title={props.en ? "Public presentation" : "その他発表など"}>
-                {presentationsList}
+                {publications.presentations.map((element, key) => (
+                    <li key={key}>
+                        {linkIcon(element.url)}
+                        <Highlight query={rules}>{props.en ? element.en : element.ja}</Highlight>
+                    </li>
+                ))}
             </AccordionItem>
             <AccordionItem title={props.en ? "Activity" : "その他活動など"}>
-                {activitiesList}
+                {publications.activities.map((element, key) => (
+                    <li key={key}>
+                        {linkIcon(element.url)}
+                        {props.en ? element.en : element.ja}
+                    </li>
+                ))}
             </AccordionItem>
         </div>
     );
