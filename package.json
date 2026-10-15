@@ -1,64 +1,39 @@
 {
-  "name": "rgroot",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "./",
-  "dependencies": {
-    "@babel/core": "^7.28.4",
-    "@babel/plugin-syntax-flow": "^7.27.1",
-    "@babel/plugin-transform-react-jsx": "^7.27.1",
-    "@chakra-ui/react": "^2.10.2",
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@fontsource/biz-udpgothic": "^5.2.8",
-    "@fontsource/ibm-plex-mono": "^5.2.7",
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.8.0",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^14.6.1",
-    "@types/jest": "^30.0.0",
-    "@types/node": "^24.5.2",
-    "@types/react": "^19.1.14",
-    "@types/react-dom": "^19.1.9",
-    "framer-motion": "^12.23.22",
-    "gravatar-url": "^4.0.1",
-    "i18next": "^25.5.2",
-    "i18next-browser-languagedetector": "^8.2.0",
-    "prop-types": "^15.8.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-i18next": "^16.0.0",
-    "react-icons": "^5.5.0",
-    "react-scripts": "5.0.1",
-    "react-type-animation": "^3.2.0",
-    "typescript": "^5.9.2",
-    "web-vitals": "^5.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "eslint 'src/**' --fix && prettier --write src"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.44.1",
-    "@typescript-eslint/parser": "^8.44.1",
-    "eslint-config-prettier": "^10.1.8"
-  }
+    "name": "rgroot",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "./",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build --outDir dist/static && vite build --ssr src/entry-server.tsx --outDir dist/server && node prerender.ts",
+        "preview": "vite preview",
+        "format": "oxlint && oxfmt"
+    },
+    "dependencies": {
+        "@fontsource/biz-udpgothic": "^5.3.0",
+        "@fontsource/ibm-plex-mono": "^5.3.0",
+        "@tailwindcss/vite": "^4.3.3",
+        "@types/node": "^26.6.5",
+        "@types/react": "^19.3.0",
+        "@types/react-dom": "^19.3.0",
+        "gravatar-url": "^4.0.2",
+        "i18next": "^26.4.4",
+        "i18next-browser-languagedetector": "^8.2.1",
+        "motion": "^14.2.0",
+        "next-themes": "^0.4.6",
+        "react": "^19.3.0",
+        "react-dom": "^19.3.0",
+        "react-i18next": "^17.0.16",
+        "react-icons": "^5.7.0",
+        "react-type-animation": "^3.2.0",
+        "tailwindcss": "^4.3.3",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.4"
+    },
+    "devDependencies": {
+        "oxfmt": "^0.73.0",
+        "oxlint": "^1.88.0",
+        "rolldown": "^1.2.14"
+    }
 }
