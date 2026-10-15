@@ -1,5 +1,5 @@
-import en from "./en.json"
-import ja from "./ja.json"
+import en from "./en.json";
+import ja from "./ja.json";
 
 export const resources = {
     ja: {
@@ -8,9 +8,9 @@ export const resources = {
     en: {
         translation: en,
     },
-}
+};
 
 export const langList = [
     { key: "ja", value: ja.lang },
     { key: "en", value: en.lang },
-]
+];

@@ -9,19 +9,19 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - name: Setup Node
-              uses: actions/setup-node@v4
+            - uses: actions/checkout@v7
+            - name: pnpm and node
+              uses: pnpm/setup@v3.1.1
               with:
-                  node-version: "18"
-            - run: npm install -g pnpm
-            - run: pnpm i
+                  runtime: node@26
+                  cache: true
+            - run: pnpm i --frozen-lockfile
             - run: pnpm build
             - name: Deploy to GitHub Pages
               if: github.ref == 'refs/heads/master'
-              uses: actions/upload-pages-artifact@v3
+              uses: actions/upload-pages-artifact@v5
               with:
-                  path: build
+                  path: dist/static
 
     deploy:
         if: github.ref == 'refs/heads/master'
@@ -36,4 +36,4 @@ jobs:
         steps:
             - name: Deploy to GitHub Pages
               id: deployment
-              uses: actions/deploy-pages@v4
+              uses: actions/deploy-pages@v5

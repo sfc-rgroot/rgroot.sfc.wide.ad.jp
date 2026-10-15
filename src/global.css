@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-mono: "IBM Plex Mono", monospace;
+}
+
+@layer base {
+    html {
+        line-height: 1.5;
+        font-family: "BIZ UDPGothic", sans-serif;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        touch-action: manipulation;
+        overscroll-behavior: none;
+    }
+
+    body {
+        position: relative;
+        min-height: 100%;
+        margin: 0;
+        font-feature-settings: "kern";
+        font-family: "BIZ UDPGothic", sans-serif;
+        line-height: 1.5;
+        color: #1a202c;
+        background-color: #ffffff;
+        transition-property: background-color;
+        transition-duration: 0.2s;
+    }
+
+    .dark body {
+        color: rgba(255, 255, 255, 0.92);
+        background-color: #1a202c;
+    }
+
+    *,
+    *::before,
+    *::after {
+        border-width: 0;
+        border-style: solid;
+        box-sizing: border-box;
+        word-wrap: break-word;
+        border-color: #e2e8f0;
+    }
+
+    .dark *,
+    .dark *::before,
+    .dark *::after {
+        border-color: rgba(255, 255, 255, 0.16);
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: inherit;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+        margin: 0;
+        padding: 0;
+        color: inherit;
+    }
+
+    :where(button, [role="button"]) {
+        cursor: pointer;
+    }
+
+    img {
+        border-style: none;
+    }
+
+    img,
+    svg,
+    video,
+    canvas,
+    audio,
+    iframe,
+    embed,
+    object {
+        vertical-align: baseline;
+    }
+
+    pre,
+    code,
+    kbd,
+    samp {
+        font-feature-settings: inherit;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "BIZ UDPGothic", sans-serif;
+        line-height: 1.33;
+    }
+
+    @media (min-width: 768px) {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            line-height: 1.2;
+        }
+    }
+
+    *::placeholder {
+        color: #718096;
+    }
+
+    .dark *::placeholder {
+        color: rgba(255, 255, 255, 0.24);
+    }
+}
