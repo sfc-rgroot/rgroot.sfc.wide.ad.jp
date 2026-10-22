@@ -48,7 +48,7 @@ const menuVariants: Variants = {
 };
 
 export const App = () => {
-    const [en, setEn] = React.useState(false);
+    const [en, setEn] = React.useState(i18n.resolvedLanguage == "en");
     const [load, setLoad] = React.useState(false);
     const [fontLoad, setFontLoad] = React.useState(false);
     const [menuOpen, setMenuOpen] = React.useState(false);
